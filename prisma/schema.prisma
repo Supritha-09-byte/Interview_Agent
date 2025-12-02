@@ -27,6 +27,8 @@ model User {
   assessments   Assessment[]
   resume        Resume?
   coverLetter   CoverLetter[]
+  interviewHistory InterviewHistory[]
+  gamification     Gamification?
 }
 
 model Assessment {
